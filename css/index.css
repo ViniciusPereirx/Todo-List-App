@@ -41,6 +41,17 @@ body {
 .wrapper .screen {
   flex: 1;
   min-width: 100%;
+  transition: all 0.3s;
+}
+
+.wrapper.show-category .home-screen {
+  transform: translateX(-100%);
+}
+.wrapper.show-category .category-screen {
+  transform: translateX(-100%);
+}
+.wrapper.show-category .screen-backdrop {
+  transform: translate(-50%, -60%);
 }
 
 .screen-backdrop {
@@ -53,6 +64,7 @@ body {
   transform: translateX(-50%);
   background-color: #f9ea85;
   border-radius: 0 0 50% 50%;
+  transition: all 0.3s;
 }
 
 .head-wrapper {
