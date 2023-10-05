@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <div class="wrapper show-category">
+    <div class="wrapper">
       <div class="screen-backdrop"></div>
       <div class="screen home-screen">
         <div class="head-wrapper">
@@ -161,6 +161,48 @@
                 </svg>
               </div>
             </div>
+          </div>
+        </div>
+
+        <!-- add task btn -->
+        <div class="add-task-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+
+        <!-- backdrop -->
+        <div class="black-backdrop"></div>
+
+        <!-- add task form -->
+        <div class="add-task">
+          <div class="add-task-backdrop"></div>
+          <h1 class="heading">Adicionar Tarefa</h1>
+          <div class="input-group">
+            <label for="task-input">Tarefa</label>
+            <input type="text" id="task-input" required />
+          </div>
+          <div class="input-group">
+            <label for="category-select">Categoria</label>
+            <select name="" id="category-select">
+              <option value="personal">Pessoa</option>
+            </select>
+          </div>
+
+          <div class="btns">
+            <button class="add-btn">Adicionar</button>
+            <button class="cancel-btn">Cancelar</button>
           </div>
         </div>
       </div>
