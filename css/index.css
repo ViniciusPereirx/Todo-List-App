@@ -47,6 +47,7 @@ body {
 .wrapper.show-category .home-screen {
   transform: translateX(-100%);
 }
+
 .wrapper.show-category .category-screen {
   transform: translateX(-100%);
 }
@@ -162,16 +163,6 @@ body {
   opacity: 0.6;
 }
 
-.category .options {
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s;
-}
-
-.categories:hover .options {
-  opacity: 1;
-  visibility: visible;
-}
 
 .category .toggle-btn {
   width: 2rem;

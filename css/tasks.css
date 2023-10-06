@@ -208,6 +208,7 @@
   gap: 1rem;
   justify-content: end;
   align-items: center;
+
 }
 
 .btns button {
@@ -218,6 +219,7 @@
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
+  z-index: 1;
 }
 
 .btns button.add-btn {
@@ -252,4 +254,11 @@
 .black-backdrop.active {
   opacity: 1;
   visibility: visible;
+}
+
+.no-task {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: 0.6;
 }
